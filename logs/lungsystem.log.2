@@ -1,0 +1,113 @@
+2018-05-31 11:47:16,064 ERROR: Exception on /table [GET] [in /Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/lucamaiano/Desktop/visualization/app/main/routes.py", line 34, in table
+    return render_template('table.html', title='Measurements', measures=type(measures))
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/lucamaiano/Desktop/visualization/app/templates/table.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/Users/lucamaiano/Desktop/visualization/app/templates/base.html", line 165, in top-level template code
+    {% block content %}{% endblock %}
+  File "/Users/lucamaiano/Desktop/visualization/app/templates/table.html", line 26, in block "content"
+    {%- for measure in measures %}
+TypeError: 'type' object is not iterable
+2018-05-31 11:47:27,829 INFO: Lung System startup [in /Users/lucamaiano/Desktop/visualization/app/__init__.py:46]
+2018-05-31 11:47:28,959 ERROR: Exception on /table [GET] [in /Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/lucamaiano/Desktop/visualization/app/main/routes.py", line 34, in table
+    return render_template('table.html', title='Measurements', measures=type(measures))
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/lucamaiano/Desktop/visualization/app/templates/table.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/Users/lucamaiano/Desktop/visualization/app/templates/base.html", line 165, in top-level template code
+    {% block content %}{% endblock %}
+  File "/Users/lucamaiano/Desktop/visualization/app/templates/table.html", line 26, in block "content"
+    {%- for measure in measures %}
+TypeError: 'type' object is not iterable
+2018-05-31 11:47:31,021 ERROR: Exception on /table [GET] [in /Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/lucamaiano/Desktop/visualization/app/main/routes.py", line 34, in table
+    return render_template('table.html', title='Measurements', measures=type(measures))
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+    context, ctx.app)
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+    rv = template.render(context)
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/lucamaiano/miniconda3/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/lucamaiano/Desktop/visualization/app/templates/table.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/Users/lucamaiano/Desktop/visualization/app/templates/base.html", line 165, in top-level template code
+    {% block content %}{% endblock %}
+  File "/Users/lucamaiano/Desktop/visualization/app/templates/table.html", line 26, in block "content"
+    {%- for measure in measures %}
+TypeError: 'type' object is not iterable
+2018-05-31 11:47:49,153 INFO: Lung System startup [in /Users/lucamaiano/Desktop/visualization/app/__init__.py:46]

@@ -82,7 +82,7 @@ class Measurements(db.Model):
     day = db.Column(db.String(64), primary_key=True)
     hour = db.Column(db.String(64), primary_key=True)
     pressure = db.Column(db.Float())
-    temperature = db.Column(db.Float(64))
+    temperature = db.Column(db.Float())
     humidity = db.Column(db.Float())
     gas = db.Column(db.Float())
 
