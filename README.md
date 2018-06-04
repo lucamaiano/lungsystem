@@ -2,7 +2,11 @@
 
 A project developed for the Pervasive Systems exam of the master degree in Engineering in Computer Science. It takes trace of the quality of the air you breathe. Data are collected into the cloud through the use of sensors attached to a STM32 Nucleo board. Access to the data is provided by a visualization system and a chat bot assistant.
 
-Presentation: https://www.slideshare.net/LucaMaiano1/pervasive-systems-final-project-presentation-the-sparkle-lung-system
+## Slides
+
+If you are interested in the project, you can give a look at the presentations. 
+MVP: https://www.slideshare.net/LucaMaiano1/student-group-projects-initial-concept-what-are-you-breathing
+Final: https://www.slideshare.net/LucaMaiano1/pervasive-systems-final-project-presentation-the-sparkle-lung-system
 
 
 ## Visualization
