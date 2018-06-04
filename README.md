@@ -32,3 +32,7 @@ Run the app.
 export FLASK_APP=hello
 flask run
 ```
+
+## Project Members
+1. [Luca Maiano](https://www.linkedin.com/in/lucamaiano/) 
+2. [Maria Carmela Dipinto](https://www.linkedin.com/in/maria-carmela-dipinto/) 
