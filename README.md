@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 Run the app.
 ```
-export FLASK_APP=hello
+export FLASK_APP=main
 flask run
 ```
 
