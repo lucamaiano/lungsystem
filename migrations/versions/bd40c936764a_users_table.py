@@ -22,7 +22,7 @@ def upgrade():
     sa.Column('day', sa.String(length=64), nullable=False),
     sa.Column('hour', sa.String(length=64), nullable=False),
     sa.Column('pressure', sa.Float(), nullable=True),
-    sa.Column('temperature', sa.Float(precision=64), nullable=True),
+    sa.Column('temperature', sa.Float(), nullable=True),
     sa.Column('humidity', sa.Float(), nullable=True),
     sa.Column('gas', sa.Float(), nullable=True),
     sa.PrimaryKeyConstraint('day', 'hour')
