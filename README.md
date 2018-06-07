@@ -13,7 +13,7 @@ If you are interested in the project, you can give a look at the presentations:
 
 The visualization was developed with Flask. Once that a user creates an account, he/she can explore the data throw three main components. The first component exposes the data through some plots developed with Ploty. The second component is a table, that retrieves the data of the last 100 measurements from the database and print them. The third and last component is a chatbot assistant developed using Dialogflow.
 
-To run it locally, open the terminal and run the following commands (on Mac OS!):
+To run it locally, open the terminal and run the following commands (on Mac OS and Linux!):
 
 ```
 cd Desktop
