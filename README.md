@@ -27,7 +27,15 @@ Now install the requirements. I suggest you to create a virtual enviromnment.
 pip install -r requirements.txt
 ```
 
+The first time that you run the app, you should migrate and update the database.
+
+```
+flask db migrate -m "import data"
+flask db upgrade
+```
+
 Run the app.
+
 ```
 export FLASK_APP=main
 flask run
