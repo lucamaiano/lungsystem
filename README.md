@@ -32,12 +32,12 @@ The first time that you run the app, you should migrate and update the database.
 ```
 flask db migrate -m "import data"
 flask db upgrade
+export FLASK_APP=main.py
 ```
 
 Run the app.
 
 ```
-export FLASK_APP=main.py
 flask run
 ```
 
