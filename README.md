@@ -37,10 +37,21 @@ flask db upgrade
 Run the app.
 
 ```
-export FLASK_APP=main
+export FLASK_APP=main.py
 flask run
 ```
 
+### Rest API
+The visualization include a Rest API that helps to
+
+| HTTP Method   | Resource URL | Notes |
+| ------------- | ------------ | ----- |
+| GET | /api/users/<id> | Return a user. |
+| GET | /api/users | Return the collection of all users. |
+| GET | /api/measures | Return the collection of all measurements. | 
+| GET | /api/measures/<string:year>/<string:month>/<string:day> | Return the a measurement. |
+| POST | /api/measures | Add a new measurement. |
+  
 ## Project Members
 1. [Luca Maiano](https://www.linkedin.com/in/lucamaiano/) 
 2. [Maria Carmela Dipinto](https://www.linkedin.com/in/maria-carmela-dipinto/) 
