@@ -46,7 +46,7 @@ The visualization includes also a Rest API.
 
 | HTTP Method   | Resource URL | Notes |
 | ------------- | ------------ | ----- |
-| GET | /api/users/<id> | Return a user. |
+| GET | /api/users/<string:id> | Return a user. |
 | GET | /api/users | Return the collection of all users. |
 | GET | /api/measures | Return the collection of all measurements. | 
 | GET | /api/measures/<string:year>/<string:month>/<string:day> | Return the a measurement. |
