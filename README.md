@@ -42,7 +42,7 @@ flask run
 ```
 
 ### Rest API
-The visualization include a Rest API that helps to
+The visualization includes also a Rest API.
 
 | HTTP Method   | Resource URL | Notes |
 | ------------- | ------------ | ----- |
