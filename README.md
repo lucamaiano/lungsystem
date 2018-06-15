@@ -99,3 +99,32 @@ Last but not least, you can even ask measures to the personal assistant
 You can use the Dashboard even on mobile, it is completely responsive!
 
 ![Dialogflow](images/mobile.png)
+
+
+## Hardware
+Carbon Monoxide is a tasteless and odourless gas unlike smoke from a fire, so its detection in the home environment is impossible without a dedicate detector. Carbon monoxide is produced by malfunctioning fuel burning devices which can be, for example, a house heating system. We have to be careful to detect its presence in a timely manner because CO is highly toxic inhalant and can be sometimes fatal. CO detector is designed to measure the level of gas over time and to set off a local alarm before dangerous level of gas are present. Home safety alarm are designed to link CO detector to people.
+
+In order to achieve this goals our prototype provide for this hardware:
+
+1. P-NUCLEO-IKA02A1- STM32 Nucleo pack (http://www.st.com/en/ecosystems/p-nucleo-ika02a1.html)
+
+![P-NUCLEO-IKA02A1](images/en.p-nucleo-ika02a1_image.jpg)
+
+This evaluation pack provides a reference design for various electrochemical sensors. It consists of the STM32 Nucleo Board (optimized for low power applications)further with electrochemical toxic gas sensor expansion board with the Figaro TGS5141 CO sensor,which is linked with the TSU111 operational amplifier. The pack also includes a gas collector.
+
+![P-NUCLEO-IKA02A1](images/en.p-nucleo-ika02a1_image.jpg)
+
+To getting start with this pack first of all plug the gas sensors expansion board to the STM32 Nucleo development board. Next connect the STM32 Nucleo development board to a Pc using a mini-USB cable.
+
+![P-NUCLEO-IKA02A1](images/en.p-nucleo-ika02a1_image.jpg)
+
+
+Useful for good and safety monitoring of the air is to take under control also the pressure, humidity, temperature values of the environment. For these reason our prototype is provided for another board:
+2. B-L475E-IOT01A - STM32L4 Discovery kit IoT node (http://www.st.com/en/evaluation-tools/b-l475e-iot01a.html)
+
+![B-L475E-IOT01A](images/en.b_l475e_iot01a.jpg)
+
+The B-L475E-IOT01A Discovery kit for IoT node allows users not only to monitor pressure,humidity and temperature but also,thanks to Wi-fi module, to develop applications with direct connection to cloud servers.
+
+![B-L475E-IOT01A](images/en.b_l475e_iot01a.jpg)
+
