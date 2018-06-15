@@ -51,7 +51,20 @@ The visualization includes also a Rest API.
 | GET | /api/measures | Return the collection of all measurements. | 
 | GET | /api/measures/<string:year>/<string:month>/<string:day> | Return the a measurement. |
 | POST | /api/measures | Add a new measurement. |
-  
+
+
+### Some Insight
+Once that you will be registered to the system and start to collect data, you will be able to visualize the data as follows.
+
+![Data](images/Dashboard2.png)
+
+You will also have a table in which you can control the last 100 measures.
+
+![Data](images/Dashboard1.png)
+
+Last but not least, you can even ask measures to the personal assistant
+
+
 ## Project Members
 1. [Luca Maiano](https://www.linkedin.com/in/lucamaiano/) 
 2. [Maria Carmela Dipinto](https://www.linkedin.com/in/maria-carmela-dipinto/) 
