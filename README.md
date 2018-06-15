@@ -9,6 +9,11 @@ If you are interested in the project, you can give a look at the presentations:
 2. [Final Project Presentation](https://www.slideshare.net/LucaMaiano1/pervasive-systems-final-project-presentation-the-sparkle-lung-system) 
 
 
+## Project Members
+1. [Luca Maiano](https://www.linkedin.com/in/lucamaiano/) 
+2. [Maria Carmela Dipinto](https://www.linkedin.com/in/maria-carmela-dipinto/) 
+
+
 ## Visualization
 
 The visualization was developed with Flask. Once that a user creates an account, he/she can explore the data throw three main components. The first component exposes the data through some plots developed with Ploty. The second component is a table, that retrieves the data of the last 100 measurements from the database and print them. The third and last component is a chatbot assistant developed using Dialogflow.
@@ -63,6 +68,8 @@ Now you can import it just cliking on "IMPORT FROM ZIP" button
 
 ![Dialogflow 1](images/dialogflow2.png)
 
+If you want to use it on the project, you must deploy the application on a web server. The simply add the url of your server on the Fulfilment section of Dialogflow.
+
 ### Some Insight
 Once that you will be registered to the system and start to collect data, you will be able to visualize the data as follows.
 
@@ -73,8 +80,4 @@ You will also have a table in which you can control the last 100 measures.
 ![Dashboard 2](images/Dashboard1.png)
 
 Last but not least, you can even ask measures to the personal assistant
-
-
-## Project Members
-1. [Luca Maiano](https://www.linkedin.com/in/lucamaiano/) 
-2. [Maria Carmela Dipinto](https://www.linkedin.com/in/maria-carmela-dipinto/) 
+![Dialogflow](images/dialogflow.png)
