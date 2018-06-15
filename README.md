@@ -5,8 +5,9 @@ A project developed for the Pervasive Systems exam of the master degree in Engin
 ## Slides
 
 If you are interested in the project, you can give a look at the presentations:
-1. [MVP](https://www.slideshare.net/LucaMaiano1/student-group-projects-initial-concept-what-are-you-breathing) 
-2. [Final Project Presentation](https://www.slideshare.net/LucaMaiano1/pervasive-systems-final-project-presentation-the-sparkle-lung-system) 
+1. [Initial Concept](https://www.slideshare.net/LucaMaiano1/student-group-projects-initial-concept-what-are-you-breathing)
+2. [MVP](https://www.slideshare.net/LucaMaiano1/pervasive-systems-mvp-what-has-been-done) 
+3. [Final Project Presentation](https://www.slideshare.net/LucaMaiano1/pervasive-systems-final-project-presentation-the-sparkle-lung-system) 
 
 
 ## Project Members
