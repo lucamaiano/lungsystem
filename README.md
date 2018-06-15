@@ -53,14 +53,24 @@ The visualization includes also a Rest API.
 | POST | /api/measures | Add a new measurement. |
 
 
+### Dialogflow
+Our system includes also a smart bot that could help you reading the data. You can ask him for measures using natural language. The agent can answer questions like "Give the value of pressure and humidity of today at 12pm" or "Tell me the all the parameters of yesterday at 10am". 
+
+You can import the agent into your Dialogflow console. First create the agent.
+![Dialogflow 1](images/dialogflow1.png)
+
+Now you can import it just cliking on "IMPORT FROM ZIP" button
+
+![Dialogflow 1](images/dialogflow2.png)
+
 ### Some Insight
 Once that you will be registered to the system and start to collect data, you will be able to visualize the data as follows.
 
-![Data](images/Dashboard2.png)
+![Dashboard 1](images/Dashboard2.png)
 
 You will also have a table in which you can control the last 100 measures.
 
-![Data](images/Dashboard1.png)
+![Dashboard 2](images/Dashboard1.png)
 
 Last but not least, you can even ask measures to the personal assistant
 
