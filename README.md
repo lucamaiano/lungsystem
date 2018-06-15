@@ -14,6 +14,12 @@ If you are interested in the project, you can give a look at the presentations:
 1. [Luca Maiano](https://www.linkedin.com/in/lucamaiano/) 
 2. [Maria Carmela Dipinto](https://www.linkedin.com/in/maria-carmela-dipinto/) 
 
+## Table of Contents
+1. [Visualization](#visualization)
+1.1 [Rest API](#rest-api)
+1.2 [Dialogflow](#dialogflow)
+1.3 [Some Insight](#some-insight)
+2. [Hardware](#hardware)
 
 ## Visualization
 
