@@ -40,11 +40,18 @@ flask db upgrade
 export FLASK_APP=main.py
 ```
 
+If you want to execute the code on Windows, instead of "export", use this command:
+```
+set FLASK_APP=main.py
+```
+
 Run the app.
 
 ```
 flask run
 ```
+
+
 
 ### Rest API
 The visualization includes also a Rest API.
