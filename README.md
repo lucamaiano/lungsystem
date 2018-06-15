@@ -90,3 +90,7 @@ You will also have a table in which you can control the last 100 measures.
 Last but not least, you can even ask measures to the personal assistant
 
 ![Dialogflow](images/dialogflow.png)
+
+You can use the Dashboard even on mobile, it is completely responsive!
+
+![Dialogflow](images/mobile.png)
