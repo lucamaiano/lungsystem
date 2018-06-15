@@ -72,9 +72,11 @@ You can import the agent into your Dialogflow console. First create the agent.
 
 ![Dialogflow 1](images/dialogflow1.png)
 
+
 Now you can import it just cliking on "IMPORT FROM ZIP" button
 
 ![Dialogflow 1](images/dialogflow2.png)
+
 
 If you want to use it on the project, you must deploy the application on a web server. The simply add the url of your server on the Fulfilment section of Dialogflow.
 
@@ -83,13 +85,16 @@ Once that you will be registered to the system and start to collect data, you wi
 
 ![Dashboard 1](images/Dashboard2.png)
 
+
 You will also have a table in which you can control the last 100 measures.
 
 ![Dashboard 2](images/Dashboard1.png)
 
+
 Last but not least, you can even ask measures to the personal assistant
 
 ![Dialogflow](images/dialogflow.png)
+
 
 You can use the Dashboard even on mobile, it is completely responsive!
 
