@@ -16,9 +16,9 @@ If you are interested in the project, you can give a look at the presentations:
 
 ## Table of Contents
 1. [Visualization](#visualization)
-1.1 [Rest API](#rest-api)
-1.2 [Dialogflow](#dialogflow)
-1.3 [Some Insight](#some-insight)
+	1. [Rest API](#rest-api)
+	2. [Dialogflow](#dialogflow)
+	3. [Some Insight](#some-insight)
 2. [Hardware](#hardware)
 
 ## Visualization
