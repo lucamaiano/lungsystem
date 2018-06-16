@@ -143,17 +143,20 @@ To getting started with this pack follow [this guide](wiki/Getting-started-with-
 
 ### Software
 
-⋅⋅* Before using the driver on the boards is necessary installing and launch with the boards connected these softwares:
+* Before using the driver on the boards is necessary installing and launch with the boards connected these softwares:
 	⋅⋅* STSW-LINK008:ST-LINK/V2-1 USBdriver (http://www.st.com/en/development-tools/stsw-link008.html)
 	⋅⋅* STSW-LINK007:ST-LINK/V2-1 firmware upgrade (http://www.st.com/en/development-tools/stsw-link007.html)
 
-⋅⋅* Tera Term (https://ttssh2.osdn.jp/index.html.en). It’s a serial line monitor that helps to read boards’ values. To set the Tera Term windows
+* Tera Term (https://ttssh2.osdn.jp/index.html.en). It’s a serial line monitor that helps to read boards’ values. To set the Tera Term windows
 	⋅⋅* on Setup/Terminal window set to Receive AUTO and to Transmit LF
 	![B-L475E-IOT01A](images/en.b_l475e_iot01a.jpg)
+	
 	⋅⋅* on Setup/SerialPort window set the Baud rate to 115200
 	![B-L475E-IOT01A](images/TERATERM2.png)
+	
 	⋅⋅* For P-NUCLEO-IKA02A1:
 		1. IAR Embedded Workbench IDE (https://www.iar.com/iar-embedded-workbench/)
+		
 	⋅⋅* For B-L475E-IOT01A:
 		1. IAR Embedded Workbench IDE (https://www.iar.com/iar-embedded-workbench/)
 		1. ARM MBED OS (https://www.mbed.com/en/) 
@@ -164,6 +167,7 @@ To getting started with this pack follow [this guide](wiki/Getting-started-with-
 
 ### Prototype
 ![B-L475E-IOT01A](images/prototype.jpg)
+
 LungSystem needs a Python script (readData.py) to read data passed by the boards on the serial port and to upload this data on the localhost. The file implementing this facility read correctly the formatted data on the serial port. 
 If flask is not running the system is able to store locally the data with this line on a file called dataToLoad.txt
 
