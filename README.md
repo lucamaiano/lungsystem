@@ -149,9 +149,11 @@ To getting started with this pack follow [this guide](wiki/Getting-started-with-
 
 * Tera Term (https://ttssh2.osdn.jp/index.html.en). It’s a serial line monitor that helps to read boards’ values. To set the Tera Term windows
 	⋅⋅* on Setup/Terminal window set to Receive AUTO and to Transmit LF
+	
 	![B-L475E-IOT01A](images/en.b_l475e_iot01a.jpg)
 	
 	⋅⋅* on Setup/SerialPort window set the Baud rate to 115200
+	
 	![B-L475E-IOT01A](images/TERATERM2.png)
 	
 	⋅⋅* For P-NUCLEO-IKA02A1:
@@ -166,6 +168,7 @@ To getting started with this pack follow [this guide](wiki/Getting-started-with-
 
 
 ### Prototype
+
 ![B-L475E-IOT01A](images/prototype.jpg)
 
 LungSystem needs a Python script (readData.py) to read data passed by the boards on the serial port and to upload this data on the localhost. The file implementing this facility read correctly the formatted data on the serial port. 
