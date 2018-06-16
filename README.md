@@ -124,7 +124,7 @@ This evaluation pack provides a reference design for various electrochemical sen
 
 ![P-NUCLEO-IKA02A1](images/NUCLEO.png)
 
-To getting started with this pack follow [this guide](wiki/Getting-started-with-P-NUCLEO-IKA02A1). 
+To getting started with this pack follow [this guide](https://github.com/lucamaiano/lungsystem/wiki/Getting-started-with-P-NUCLEO-IKA02A1). 
 
 
 Useful for good and safety monitoring of the air is to take under control also the pressure, humidity, temperature values of the environment. For these reason our prototype is provided for another board:
@@ -138,7 +138,7 @@ The B-L475E-IOT01A Discovery kit for IoT node allows users not only to monitor p
 
 This kit is the quickest way to develop Iot application based on rich hardware,simple software and easy support to connect intelligent node service and build powerful services.
 
-To getting started with this pack follow [this guide](wiki/Getting-started-with-the-B-L475E-IOT01A-Discovery-kit).
+To getting started with this pack follow [this guide](https://github.com/lucamaiano/lungsystem/wiki/Getting-started-with-the-B-L475E-IOT01A-Discovery-kit).
 
 
 ### Software
@@ -150,7 +150,7 @@ To getting started with this pack follow [this guide](wiki/Getting-started-with-
 * Tera Term (https://ttssh2.osdn.jp/index.html.en). It’s a serial line monitor that helps to read boards’ values. To set the Tera Term windows
 	* on Setup/Terminal window set to Receive AUTO and to Transmit LF
 	
-	![B-L475E-IOT01A](images/en.b_l475e_iot01a.jpg)
+	![B-L475E-IOT01A](images/TERATERM.png)
 	
 	* on Setup/SerialPort window set the Baud rate to 115200
 	
