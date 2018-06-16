@@ -22,6 +22,7 @@ If you are interested in the project, you can give a look at the presentations:
 2. [Hardware](#hardware)
 	1. [Software](#software)
 	2. [Prototype](#prototype)
+	3. [Python Script Code](#python-script-code)
 
 ## Visualization
 
@@ -121,11 +122,9 @@ In order to achieve this goals our prototype provide for this hardware:
 
 This evaluation pack provides a reference design for various electrochemical sensors. It consists of the STM32 Nucleo Board (We use a NUCLEO-L053R8 optimized for low power applications) further with electrochemical toxic gas sensor expansion board with the Figaro TGS5141 CO sensor,which is linked with the TSU111 operational amplifier. The pack also includes a gas collector.
 
-![P-NUCLEO-IKA02A1](images/en.p-nucleo-ika02a1_image.jpg)
+![P-NUCLEO-IKA02A1](images/NUCLEO.png)
 
 To getting started with this pack follow [this guide](wiki/Getting-started-with-P-NUCLEO-IKA02A1). 
-
-![P-NUCLEO-IKA02A1](images/en.p-nucleo-ika02a1_image.jpg)
 
 
 Useful for good and safety monitoring of the air is to take under control also the pressure, humidity, temperature values of the environment. For these reason our prototype is provided for another board:
@@ -135,7 +134,7 @@ Useful for good and safety monitoring of the air is to take under control also t
 
 The B-L475E-IOT01A Discovery kit for IoT node allows users not only to monitor pressure,humidity and temperature but also,thanks to Wi-fi module, to develop applications with direct connection to cloud servers.
 
-![B-L475E-IOT01A](images/en.b_l475e_iot01a.jpg)
+![B-L475E-IOT01A](images/Immagine9.png)
 
 This kit is the quickest way to develop Iot application based on rich hardware,simple software and easy support to connect intelligent node service and build powerful services.
 
@@ -152,7 +151,7 @@ To getting started with this pack follow [this guide](wiki/Getting-started-with-
 	⋅⋅* on Setup/Terminal window set to Receive AUTO and to Transmit LF
 	![B-L475E-IOT01A](images/en.b_l475e_iot01a.jpg)
 	⋅⋅* on Setup/SerialPort window set the Baud rate to 115200
-	![B-L475E-IOT01A](images/en.b_l475e_iot01a.jpg)
+	![B-L475E-IOT01A](images/TERATERM2.png)
 	⋅⋅* For P-NUCLEO-IKA02A1:
 		1. IAR Embedded Workbench IDE (https://www.iar.com/iar-embedded-workbench/)
 	⋅⋅* For B-L475E-IOT01A:
@@ -164,10 +163,11 @@ To getting started with this pack follow [this guide](wiki/Getting-started-with-
 
 
 ### Prototype
+![B-L475E-IOT01A](images/prototype.jpg)
 LungSystem needs a Python script (readData.py) to read data passed by the boards on the serial port and to upload this data on the localhost. The file implementing this facility read correctly the formatted data on the serial port. 
 If flask is not running the system is able to store locally the data with this line on a file called dataToLoad.txt
 
-### Python script code
+### Python Script Code
 ```
 fname = "dataToLoad.txt"
 t_file = open(fname, 'a')
