@@ -148,18 +148,18 @@ To getting started with this pack follow [this guide](wiki/Getting-started-with-
 	⋅⋅* STSW-LINK007:ST-LINK/V2-1 firmware upgrade (http://www.st.com/en/development-tools/stsw-link007.html)
 
 * Tera Term (https://ttssh2.osdn.jp/index.html.en). It’s a serial line monitor that helps to read boards’ values. To set the Tera Term windows
-	⋅⋅* on Setup/Terminal window set to Receive AUTO and to Transmit LF
+	* on Setup/Terminal window set to Receive AUTO and to Transmit LF
 	
 	![B-L475E-IOT01A](images/en.b_l475e_iot01a.jpg)
 	
-	⋅⋅* on Setup/SerialPort window set the Baud rate to 115200
+	* on Setup/SerialPort window set the Baud rate to 115200
 	
 	![B-L475E-IOT01A](images/TERATERM2.png)
 	
-	⋅⋅* For P-NUCLEO-IKA02A1:
+	* For P-NUCLEO-IKA02A1:
 		1. IAR Embedded Workbench IDE (https://www.iar.com/iar-embedded-workbench/)
 		
-	⋅⋅* For B-L475E-IOT01A:
+	* For B-L475E-IOT01A:
 		1. IAR Embedded Workbench IDE (https://www.iar.com/iar-embedded-workbench/)
 		1. ARM MBED OS (https://www.mbed.com/en/) 
 		1. ARM MBED Compiler (https://os.mbed.com/handbook/mbed-Compiler)
