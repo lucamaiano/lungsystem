@@ -33,7 +33,7 @@ To run it locally, open the terminal and run the following commands (on Mac OS a
 ```
 cd Desktop
 git clone https://github.com/lucamaiano/lungsystem.git
-cd lungsystem
+cd lungsystem/Dashboard
 ```
 
 Now install the requirements. I suggest you to create a virtual enviromnment.
