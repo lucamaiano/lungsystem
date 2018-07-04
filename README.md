@@ -213,8 +213,8 @@ To test the effectivness of our system, we simulated three different scenarios.
 ![Porta Maggiore](images/pmaggiore2.jpg)
 
 3. Outdoor in a park: Piazza Dante, Roma
-![Piazza Dante](images/piazza dante.jpg)
-![Piazza Dante](images/pdante 1.jpg)
-![Piazza Dante](images/pdante 2.jpg)
+![Piazza Dante](images/piazza%20dante.jpg)
+![Piazza Dante](images/pdante%201.jpg)
+![Piazza Dante](images/pdante%202.jpg)
 
 From those results, it seems that there is some kind of variance between indoor and outdoor measurements. The values of gas seem to increase particulary on the street with higher traffic conditions. Instead, it seems that even in a crowded room, the values of gas do not change too much, but there is an evident variation of temperature and humidity. 
