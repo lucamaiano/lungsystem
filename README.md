@@ -204,17 +204,25 @@ res = requests.post('http://localhost:5000/api/measures', json=dictToSend)
 To test the effectivness of our system, we simulated three different scenarios.
 
 1. Indoor: Dipartimento Di Ingegneria Informatica, Automatica e Gestionale (DIAG), La Sapienza di Roma
+
 ![Biblioteca DIAG](images/biblioteca.jpg)
+
 ![Biblioteca DIAG](images/diag.jpg)
 
 2. Outdoor on the street: Via di Porta Maggiore, Roma
-![Porta Maggiore](images/porta%20maggiore.jpg)
+
 ![Porta Maggiore](images/pmaggiore.jpg)
+
 ![Porta Maggiore](images/pmaggiore2.jpg)
 
+![Porta Maggiore](images/porta%20maggiore.jpg)
+
 3. Outdoor in a park: Piazza Dante, Roma
+
 ![Piazza Dante](images/pdante%201.jpg)
+
 ![Piazza Dante](images/pdante%202.jpg)
+
 ![Piazza Dante](images/piazza%20dante.jpg)
 
 From those results, it seems that there is some kind of variance between indoor and outdoor measurements. The values of gas seem to increase particulary on the street with higher traffic conditions. Instead, it seems that even in a crowded room, the values of gas do not change too much, but there is an evident variation of temperature and humidity. 
