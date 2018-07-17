@@ -201,7 +201,7 @@ res = requests.post('http://localhost:5000/api/measures', json=dictToSend)
 ```
 
 ### Real Measurements
-To test the effectivness of our system, we simulated three different scenarios.
+To test the effectivness of our system, we simulated three different scenarios. We have measured in three different days from 8:00am to 3:00pm.
 
 1. Indoor: Dipartimento Di Ingegneria Informatica, Automatica e Gestionale (DIAG), La Sapienza di Roma
 
