@@ -205,22 +205,22 @@ To test the effectivness of our system, we simulated three different scenarios.
 
 1. Indoor: Dipartimento Di Ingegneria Informatica, Automatica e Gestionale (DIAG), La Sapienza di Roma
 
-![Biblioteca DIAG](images/ariosto.jpg)
+![Biblioteca DIAG](images/ariosto.png)
 
 2. Outdoor on the street: Via di Porta Maggiore, Roma
 
-![Porta Maggiore](images/pmaggiore.jpg)
+![Porta Maggiore](images/pmaggiore.png)
 
 3. Outdoor in a park: Piazza Dante, Roma
 
-![Piazza Dante](images/dante.jpg)
+![Piazza Dante](images/dante.png)
 
 From those results, it seems that there is some kind of variance between indoor and outdoor measurements. The values of gas seem to increase particulary on the street with higher traffic conditions. Instead, it seems that even in a crowded room, the values of gas do not change too much, but there is an evident variation of temperature and humidity. Here the comparison between the values. Starting from left to right you can se the values for DIAG, Porta Maggiore and Piazza Dante.
 
-![Pressure](images/pressure.jpg)
+![Pressure](images/pressure.png)
 
-![Temperature](images/temperature.jpg)
+![Temperature](images/temperature.png)
 
-![Humidity](images/humidity.jpg)
+![Humidity](images/humidity.png)
 
-![Gas](images/gas.jpg)
+![Gas](images/gas.png)
