@@ -173,7 +173,7 @@ To getting started with this pack follow [this guide](https://github.com/lucamai
 ![B-L475E-IOT01A](images/prototype.jpg)
 ![B-L475E-IOT01A](images/prototype2.jpg)
 
-The system works thanks to a Client python, that once launched, puts the server http, working on the board, in listening mode. When the Client asks for the data, the server collects them from the sensors and sends them to the client. After that the Client is able to send all the informations to the Flask Server for the visualization.
+The system works thanks to a python Client that once launched, starts the http server working on the board in listening mode. When the Client asks for the data, the server collects them from the sensors and sends them to the client. After that the Client is able to send all the informations to the Flask Server for the visualization.
 
 
 ### How to Lunch the System
