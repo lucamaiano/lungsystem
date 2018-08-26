@@ -196,8 +196,8 @@ All the data collected will be shown on the Terminal window.
 
 We can see from the window on the left all the data collected from the Client (temperature,humidity,pressure, CO) and after sent to the Flask Server (window on the right). 
 Until the Client is stopped, the collection of data is done every 6-7 seconds.
-During the collection and sending of the light on the prototype will be flashing red and green like that
-[Download the video](https://github.com/lucamaiano/lungsystem/blob/master/images/video.mp4)
+During the collection and sending of the light on the prototype will be flashing red and green like in
+[this video](https://github.com/lucamaiano/lungsystem/blob/master/images/video.mp4).
 
 
 Enjoy it!
