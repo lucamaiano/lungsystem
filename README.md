@@ -22,7 +22,7 @@ If you are interested in the project, you can give a look at the presentations:
 2. [Hardware](#hardware)
 	1. [Software](#software)
 	2. [Prototype](#prototype)
-	3. [Python Script Code](#python-script-code)
+	3. [How to lunch the System](#python-script-code)
 	4. [Real Measurements](#real-measurements)
 
 ## Visualization
@@ -171,34 +171,37 @@ To getting started with this pack follow [this guide](https://github.com/lucamai
 ### Prototype
 
 ![B-L475E-IOT01A](images/prototype.jpg)
+![B-L475E-IOT01A](images/prototype2.jpg)
 
-LungSystem needs a Python script (readData.py) to read data passed by the boards on the serial port and to upload this data on the localhost. The file implementing this facility read correctly the formatted data on the serial port. 
-If flask is not running the system is able to store locally the data with this line on a file called dataToLoad.txt
+The system works thanks to a Client python, that once launched, puts the server http, working on the board, in listening mode. When the Client asks for the data, the server collects them from the sensors and sends them to the client. After that the Client is able to send all the informations to the Flask Server for the visualization.
 
-### Python Script Code
-```
-fname = "dataToLoad.txt"
-t_file = open(fname, 'a')
-```
 
-With another Python script (loadBatch.py) LungSystem is able to  send automatically the data collected in dataToLoad.txt when Flask runs in a second time .
-In particular it opens the file store on the local machine,reads all the lines, tries to connect with the database: if connection succeeds, than it sends the data to the db and deletes that line, if not , than it writes the line on the local file. At the end of these operation on the local machine there’s the file with just the data not sent.
+### How to Lunch the System
 
-To run the code:
-1. Download the readData.py and loadBatch.py files
-2. Open two windows on a terminal 
-3. On the first one type:
-```
-python readData.py
-```
-4. On the other one type:
-```
-python loadBatch.py
-```
-To modify the destination of the data, modify the line 66 of readData.py file.
-```
-res = requests.post('http://localhost:5000/api/measures', json=dictToSend)
-```
+To let the system work:
+1. Connect the prototype to the PC. After that on the Tera Term window this screen will be shown: 
+![B-L475E-IOT01A](images/1.jpg)
+As you can see, the HTTP Server is waiting for a connection.
+2. Launch Flask. If Flask can’t work correctly it’s possible to collect the data locally with the script `loadBatch.py`. It will send the data to the Flask server when it will work. To launch loadBatch.py type from terminal the command `python loadBatch.py`
+3. Launch the Client on a differnt Terminal window typing the command 
+`python Client.py`
+
+The system will ask for the ip address of the Server that is possible to insert manually from command line.
+![B-L475E-IOT01A](images/2.jpg)
+The system now is able to work.
+
+All the data collected will be shown on the Terminal window.
+
+![B-L475E-IOT01A](images/3.jpg)
+
+We can see from the window on the left all the data collected from the Client (temperature,humidity,pressure, CO) and after sent to the Flask Server (window on the right). 
+Until the Client is stopped, the collection of data is done every 6-7 seconds.
+During the collection and sending of the light on the prototype will be flashing red and green like that
+[![Watch the video](images/video.mp4)
+
+
+Enjoy it!
+
 
 ### Real Measurements
 To test the effectivness of our system, we simulated three different scenarios. We have measured in three different days from 8:00am to 3:00pm.
