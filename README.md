@@ -22,7 +22,7 @@ If you are interested in the project, you can give a look at the presentations:
 2. [Hardware](#hardware)
 	1. [Software](#software)
 	2. [Prototype](#prototype)
-	3. [How to lunch the System](#python-script-code)
+	3. [How to lunch the System](#how-to-lunch-the-system)
 	4. [Real Measurements](#real-measurements)
 
 ## Visualization
@@ -197,7 +197,7 @@ All the data collected will be shown on the Terminal window.
 We can see from the window on the left all the data collected from the Client (temperature,humidity,pressure, CO) and after sent to the Flask Server (window on the right). 
 Until the Client is stopped, the collection of data is done every 6-7 seconds.
 During the collection and sending of the light on the prototype will be flashing red and green like that
-[![Watch the video](images/video.mp4)
+![Download the video](images/video.mp4)
 
 
 Enjoy it!
