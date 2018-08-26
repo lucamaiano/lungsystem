@@ -7,7 +7,7 @@ import threading
 import requests
 import json
 import socket
-
+import signal
 # create an ipv4 (AF_INET) socket object using the tcp protocol (SOCK_STREAM)
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
@@ -29,6 +29,18 @@ def open_file (i_giorno,i_ora):
     	t_file.write("DateRil;Temperature;Humidity;Pressure;Gas\n")
     return t_file
 	
+class SIGINT_handler():
+    def __init__(self):
+        self.SIGINT = False
+
+    def signal_handler(self, signal, frame):
+        print('You pressed Ctrl+C!')
+        self.SIGINT = True
+        client.send(b'POST / HTTP/1.1\r\n')
+        exit()
+		
+
+
 	
 
 fname = "dataToLoad.txt"
@@ -39,6 +51,9 @@ print("Connected to server")
 while 1:
 	giorno=time.strftime("%Y/%m/%d")
 	ora=time.strftime("%H:%M:%S")
+	handler = SIGINT_handler()
+	signal.signal(signal.SIGINT, handler.signal_handler)	
+	
 # connect the client
 # client.connect((target, port))
 
@@ -48,7 +63,7 @@ while 1:
 # receive the response data (4096 is recommended buffer size)
 	response = client.recv(4096)
 
-	print ("Sending data to flask server")
+	print (response)
 	valori = str(response)
 	valori=valori.replace("\n","")
 	valori=valori.replace("\r","")
@@ -59,11 +74,11 @@ while 1:
 	humidity=0
 	gas=0
 	if valori != "" and valori != "\n":
-	   dati=valori.split(";",3)
+	   dati=valori.split(";",4)
 	   temperature=dati[0]
 	   humidity=dati[1]
 	   pressure=dati[2]
-	   gas = 0.9
+	   gas = dati[3]
 	if temperature != 0 and gas != "0.0":
 		dictToSend = {'day':giorno,'hour':ora,'pressure':pressure,'humidity':humidity,'temperature':temperature,'gas':gas}
 		try:

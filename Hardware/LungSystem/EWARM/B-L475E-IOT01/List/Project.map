@@ -1,0 +1,905 @@
+###############################################################################
+#
+# IAR ELF Linker V8.22.2.15995/W32 for ARM                26/Aug/2018  11:10:04
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Exe\Project.out
+#    Map file     =  
+#        D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\List\Project.map
+#    Command line =  
+#        -f C:\Users\DipintoS\AppData\Local\Temp\EW5AB7.tmp
+#        ("D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\cube_hal.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\cube_hal_l4.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\es_wifi.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\es_wifi_io.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\hts221.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\lps22hb.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\main.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\startup_stm32l475xx.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01_hsensor.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01_psensor.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01_tsensor.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_adc.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_adc_ex.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_cortex.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_dma.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_flash.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_flash_ex.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_gpio.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_i2c.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_i2c_ex.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_pwr.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_pwr_ex.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_rcc.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_rcc_ex.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_rtc.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_rtc_ex.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_spi.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_spi_ex.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_tim.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_tim_ex.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_uart.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_uart_ex.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_it.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_nucleo.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32l4xx_nucleo_ika02a1.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\stm32xx_it.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\system_stm32l4xx.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\wifi.o"
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Obj\x_nucleo_ika02a1.o" --redirect
+#        _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\Exe\Project.out" --map
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\B-L475E-IOT01\List\Project.map" --config
+#        "D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server
+#        - Copia\EWARM\stm32l475xx_flash.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x080fffff] { ro };
+define block HEAP with size = 64K, alignment = 8 { };
+"P2":  place in [from 0x20000000 to 0x20017fff] { rw, block HEAP };
+define block CSTACK with size = 32512, alignment = 8 { };
+"P3":  place in [from 0x10000000 to 0x10007fff] { block CSTACK };
+initialize by copy { rw };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A0":                                      0x188
+  .intvec            ro code  0x08000000   0x188  startup_stm32l475xx.o [1]
+                            - 0x08000188   0x188
+
+"P1":                                     0x8c71
+  .text              ro code  0x08000188  0x1320  main.o [1]
+  .text              ro code  0x080014a8    0x2c  stm32l475e_iot01_tsensor.o [1]
+  .text              ro code  0x080014d4    0x34  stm32l475e_iot01_hsensor.o [1]
+  .text              ro code  0x08001508    0x34  stm32l475e_iot01_psensor.o [1]
+  .text              ro code  0x0800153c    0x18  stm32l4xx_hal.o [1]
+  .text              ro code  0x08001554   0x704  stm32l4xx_hal_rcc.o [1]
+  .text              ro code  0x08001c58   0x124  system_stm32l4xx.o [1]
+  .text              ro code  0x08001d7c    0xc0  cube_hal.o [1]
+  .text              ro code  0x08001e3c   0x7ee  stm32l4xx_hal_uart.o [1]
+  .text              ro code  0x0800262a    0x7a  lz77_init_single.o [5]
+  .text              ro code  0x080026a4   0x29a  stm32l475e_iot01.o [1]
+  .text              ro code  0x0800293e    0x1e  xencoding_8859_1.o [3]
+  .text              ro code  0x0800295c    0x36  strlen.o [5]
+  .text              ro code  0x08002992     0xa  xsprout.o [3]
+  .text              ro code  0x0800299c   0x822  stm32l4xx_hal_adc.o [1]
+  .text              ro code  0x080031c0    0x86  stm32l4xx_hal_adc_ex.o [1]
+  .text              ro code  0x08003248    0x28  printf.o [3]
+  .text              ro code  0x08003270    0xfc  wifi.o [1]
+  .text              ro code  0x0800336c    0x20  strcat.o [3]
+  .text              ro code  0x0800338c   0x1ec  x_nucleo_ika02a1.o [1]
+  .text              ro code  0x08003578    0x62  round.o [4]
+  .text              ro code  0x080035dc    0x3a  DblToS32.o [4]
+  .text              ro code  0x08003618    0x48  FltToDbl.o [4]
+  .text              ro code  0x08003660    0x16  stm32l4xx_hal.o [1]
+  .text              ro code  0x08003678    0x40  sprintf.o [3]
+  .text              ro code  0x080036b8    0x30  strstr.o [3]
+  .text              ro code  0x080036e8   0x20c  stm32l4xx_hal_flash.o [1]
+  .text              ro code  0x080038f4    0x28  DblToU32.o [4]
+  .text              ro code  0x0800391c    0x16  math_wrappers64.o [4]
+  .text              ro code  0x08003934    0x22  S32ToDbl.o [4]
+  .text              ro code  0x08003958    0x1a  U32ToDbl.o [4]
+  .text              ro code  0x08003974   0x1a2  DblMul.o [4]
+  .text              ro code  0x08003b18   0x178  DblAdd.o [4]
+  .text              ro code  0x08003c90   0x15c  stm32l4xx_hal_flash_ex.o [1]
+  .text              ro code  0x08003dec   0x16c  stm32l4xx_nucleo_ika02a1.o [1]
+  .text              ro code  0x08003f58     0xc  stm32l4xx_hal.o [1]
+  .text              ro code  0x08003f64    0x2e  DblCmpLe.o [4]
+  .text              ro code  0x08003f94   0x1fc  stm32l4xx_hal_gpio.o [1]
+  .text              ro code  0x08004190    0xc8  stm32l4xx_hal_cortex.o [1]
+  .text              ro code  0x08004258    0x28  stm32l4xx_hal.o [1]
+  .text              ro code  0x08004280    0x10  stm32l4xx_hal_pwr_ex.o [1]
+  .text              ro code  0x08004290     0x2  stm32l4xx_hal_uart.o [1]
+  .text              ro code  0x08004292     0x2  stm32l4xx_hal_uart.o [1]
+  .text              ro code  0x08004294     0x2  stm32l4xx_hal_uart_ex.o [1]
+  .text              ro code  0x08004296     0x2  stm32l4xx_hal_uart.o [1]
+  .text              ro code  0x08004298   0x22e  I64DivMod.o [5]
+  .text              ro code  0x080044c8   0x5b6  stm32l4xx_hal_i2c.o [1]
+  .text              ro code  0x08004a80    0x5a  stm32l4xx_hal_i2c_ex.o [1]
+  .text              ro code  0x08004adc   0xf96  xprintffull.o [3]
+  .text              ro code  0x08005a74   0x828  es_wifi.o [1]
+  .text              ro code  0x0800629c    0xe2  DblSub.o [4]
+  .text              ro code  0x08006380   0x246  DblDiv.o [4]
+  .text              ro code  0x080065c8   0x102  sqrt.o [4]
+  .text              ro code  0x080066cc    0x68  DblToFlt.o [4]
+  .text              ro code  0x08006734    0x16  strchr.o [5]
+  .rodata            const    0x0800674c     0x4  main.o [1]
+  .text              ro code  0x08006750   0xb28  pow64.o [4]
+  .text              ro code  0x08007278     0x2  I64DivZer.o [5]
+  .text              ro code  0x0800727a     0x2  stm32l4xx_hal_i2c.o [1]
+  .text              ro code  0x0800727c    0x74  xlocale_c.o [3]
+  .text              ro code  0x080072f0    0x40  xfail_s.o [3]
+  .text              ro code  0x08007330    0x58  memchr.o [5]
+  .text              ro code  0x08007388     0xa  xmbcurmax.o [3]
+  .text              ro code  0x08007394    0xa6  ABImemcpy.o [5]
+  .text              ro code  0x0800743c    0x70  frexp.o [4]
+  .text              ro code  0x080074ac    0x2e  DblCmpGe.o [4]
+  .text              ro code  0x080074dc   0x13a  ldexp.o [4]
+  .text              ro code  0x08007618    0x48  strtok.o [3]
+  .text              ro code  0x08007660    0x70  strncpy.o [5]
+  .text              ro code  0x080076d0    0x20  DblCmpEq.o [4]
+  .text              ro code  0x080076f0   0x418  iar_Exp64.o [4]
+  .text              ro code  0x08007b08     0x6  abort.o [3]
+  .text              ro code  0x08007b0e    0x22  strspn.o [3]
+  .text              ro code  0x08007b30    0x22  strcspn.o [3]
+  .text              ro code  0x08007b54    0x5e  ABImemset.o [5]
+  .text              ro code  0x08007bb4    0x14  exit.o [6]
+  .text              ro code  0x08007bc8   0x892  stm32l4xx_hal_spi.o [1]
+  .text              ro code  0x0800845a     0x2  stm32l4xx_hal_spi.o [1]
+  .text              ro code  0x0800845c   0x3a0  es_wifi_io.o [1]
+  .text              ro code  0x080087fc    0x22  stm32l4xx_hal_spi_ex.o [1]
+  .text              ro code  0x08008820   0x1c8  hts221.o [1]
+  .text              ro code  0x080089e8    0xa8  lps22hb.o [1]
+  .text              ro code  0x08008a90    0x40  zero_init3.o [5]
+  .text              ro code  0x08008ad0    0x28  data_init.o [5]
+  .text              ro code  0x08008af8    0x22  fpinit_M.o [4]
+  .iar.init_table    const    0x08008b1c    0x20  - Linker created -
+  .text              ro code  0x08008b3c    0x1e  cmain.o [5]
+  .text              ro code  0x08008b5a     0x4  low_level_init.o [3]
+  .text              ro code  0x08008b5e     0x4  exit.o [3]
+  .text              ro code  0x08008b64     0xa  cexit.o [5]
+  .text              ro code  0x08008b6e    0x16  xprout.o [3]
+  .text              ro code  0x08008b84     0xc  putchar.o [3]
+  .text              ro code  0x08008b90    0x14  stm32l4xx_it.o [1]
+  .text              ro code  0x08008ba4    0x10  stm32l4xx_hal.o [1]
+  .text              ro code  0x08008bb4    0x10  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008bc4     0xc  stm32xx_it.o [1]
+  .text              ro code  0x08008bd0     0xc  cstartup_M.o [5]
+  .rodata            const    0x08008bdc     0x8  system_stm32l4xx.o [1]
+  .rodata            const    0x08008be4     0x6  xlocale_c.o [3]
+  .text              ro code  0x08008bea     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008bee     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008bf2     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008bf6     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008bfa     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008bfe     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c02     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c06     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c0a     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c0e     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c12     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c16     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c1a     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c1e     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c22     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c26     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c2a     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c2e     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c32     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c36     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c3a     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c3e     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c42     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c46     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c4a     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c4e     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c52     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c56     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c5a     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c5e     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c62     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c66     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c6a     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c6e     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c72     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c76     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c7a     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c7e     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c82     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c86     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c8a     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c8e     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c92     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c96     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c9a     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008c9e     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008ca2     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008ca6     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008caa     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008cae     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008cb2     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008cb6     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008cba     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008cbe     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008cc2     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008cc6     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008cca     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008cce     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008cd2     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008cd6     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008cda     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008cde     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008ce2     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008ce6     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008cea     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008cee     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008cf2     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008cf6     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008cfa     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008cfe     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008d02     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008d06     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008d0a     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008d0e     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008d12     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008d16     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008d1a     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008d1e     0x4  startup_stm32l475xx.o [1]
+  .text              ro code  0x08008d22     0x4  startup_stm32l475xx.o [1]
+  .rodata            const    0x08008d26     0x0  zero_init3.o [5]
+  .rodata            const    0x08008d26     0x0  lz77_init_single.o [5]
+  Initializer bytes  const    0x08008d26    0xd3  <for P2-1>
+                            - 0x08008df9  0x8c71
+
+"P3":                                     0x7f00
+  CSTACK                      0x10000000  0x7f00  <Block>
+    CSTACK           uninit   0x10000000  0x7f00  <Block tail>
+                            - 0x10007f00  0x7f00
+
+"P2", part 1 of 2:                         0x7c8
+  P2-1                        0x20000000   0x7c8  <Init block>
+    .data            inited   0x20000000    0x74  cube_hal.o [1]
+    .data            inited   0x20000074     0xc  hts221.o [1]
+    .data            inited   0x20000080    0x10  hts221.o [1]
+    .data            inited   0x20000090     0xc  lps22hb.o [1]
+    .data            inited   0x2000009c   0x180  main.o [1]
+    .data            inited   0x2000021c    0x24  main.o [1]
+    .data            inited   0x20000240   0x428  main.o [1]
+    .data            inited   0x20000668     0x4  stm32l475e_iot01.o [1]
+    .data            inited   0x2000066c     0xc  stm32l475e_iot01.o [1]
+    .data            inited   0x20000678    0x84  stm32l4xx_nucleo_ika02a1.o [1]
+    .data            inited   0x200006fc     0x4  system_stm32l4xx.o [1]
+    .data            inited   0x20000700    0x38  xlocale_c.o [3]
+    .data            inited   0x20000738    0x48  xlocale_c.o [3]
+    .data            inited   0x20000780    0x48  xfiles.o [3]
+                            - 0x200007c8   0x7c8
+
+"P2", part 2 of 2:                         0x970
+  .bss               zero     0x200007c8   0x768  wifi.o [1]
+  .bss               zero     0x20000f30    0x70  stm32l475e_iot01.o [1]
+  .bss               zero     0x20000fa0    0x68  stm32l4xx_nucleo_ika02a1.o [1]
+  .bss               zero     0x20001008    0x64  es_wifi_io.o [1]
+  .bss               zero     0x2000106c    0x50  xfiles.o [3]
+  .bss               zero     0x200010bc    0x48  stm32l475e_iot01.o [1]
+  .bss               zero     0x20001104    0x1c  stm32l4xx_hal_flash.o [1]
+  .bss               zero     0x20001120     0x4  stm32l475e_iot01_hsensor.o [1]
+  .bss               zero     0x20001124     0x4  stm32l475e_iot01_psensor.o [1]
+  .bss               zero     0x20001128     0x4  stm32l475e_iot01_tsensor.o [1]
+  .bss               zero     0x2000112c     0x4  stm32l4xx_hal.o [1]
+  .bss               zero     0x20001130     0x4  strtok.o [3]
+  .bss               zero     0x20001134     0x4  xfail_s.o [3]
+                            - 0x20001138   0x970
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x970:
+          0x200007c8  0x970
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0xd3 (10% of destination):
+          0x08008d26   0xd3
+    1 destination range, total size 0x7c8:
+          0x20000000  0x7c8
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                      ro code  ro data  rw data
+    ------                      -------  -------  -------
+D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server - Copia\EWARM\B-L475E-IOT01\Obj: [1]
+    cube_hal.o                      192       12      116
+    es_wifi.o                     2 088
+    es_wifi_io.o                    928               100
+    hts221.o                        456        3       28
+    lps22hb.o                       168        1       12
+    main.o                        4 896      161    1 484
+    startup_stm32l475xx.o           724
+    stm32l475e_iot01.o              666        2      200
+    stm32l475e_iot01_hsensor.o       52                 4
+    stm32l475e_iot01_psensor.o       52                 4
+    stm32l475e_iot01_tsensor.o       44                 4
+    stm32l4xx_hal.o                 114                 4
+    stm32l4xx_hal_adc.o           2 082
+    stm32l4xx_hal_adc_ex.o          134
+    stm32l4xx_hal_cortex.o          200
+    stm32l4xx_hal_flash.o           524                28
+    stm32l4xx_hal_flash_ex.o        348
+    stm32l4xx_hal_gpio.o            508
+    stm32l4xx_hal_i2c.o           1 464
+    stm32l4xx_hal_i2c_ex.o           90
+    stm32l4xx_hal_pwr_ex.o           16
+    stm32l4xx_hal_rcc.o           1 796
+    stm32l4xx_hal_spi.o           2 196
+    stm32l4xx_hal_spi_ex.o           34
+    stm32l4xx_hal_uart.o          2 036
+    stm32l4xx_hal_uart_ex.o           2
+    stm32l4xx_it.o                   20
+    stm32l4xx_nucleo_ika02a1.o      364       14      236
+    stm32xx_it.o                     12
+    system_stm32l4xx.o              292        8        4
+    wifi.o                          252             1 896
+    x_nucleo_ika02a1.o              492
+    -----------------------------------------------------
+    Total:                       23 242      201    4 120
+
+command line: [2]
+    -----------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    abort.o                           6
+    exit.o                            4
+    low_level_init.o                  4
+    printf.o                         40
+    putchar.o                        12
+    sprintf.o                        64
+    strcat.o                         32
+    strcspn.o                        34
+    strspn.o                         34
+    strstr.o                         48
+    strtok.o                         72                 4
+    xencoding_8859_1.o               30
+    xfail_s.o                        64                 4
+    xfiles.o                                   8      152
+    xlocale_c.o                     116       20      128
+    xmbcurmax.o                      10
+    xprintffull.o                 3 990
+    xprout.o                         22
+    xsprout.o                        10
+    -----------------------------------------------------
+    Total:                        4 592       28      288
+
+m7M_tls.a: [4]
+    DblAdd.o                        376
+    DblCmpEq.o                       32
+    DblCmpGe.o                       46
+    DblCmpLe.o                       46
+    DblDiv.o                        582
+    DblMul.o                        418
+    DblSub.o                        226
+    DblToFlt.o                      104
+    DblToS32.o                       58
+    DblToU32.o                       40
+    FltToDbl.o                       72
+    S32ToDbl.o                       34
+    U32ToDbl.o                       26
+    fpinit_M.o                       34
+    frexp.o                         112
+    iar_Exp64.o                   1 048
+    ldexp.o                         314
+    math_wrappers64.o                22
+    pow64.o                       2 856
+    round.o                          98
+    sqrt.o                          258
+    -----------------------------------------------------
+    Total:                        6 802
+
+rt7M_tl.a: [5]
+    ABImemcpy.o                     166
+    ABImemset.o                      94
+    I64DivMod.o                     558
+    I64DivZer.o                       2
+    cexit.o                          10
+    cmain.o                          30
+    cstartup_M.o                     12
+    data_init.o                      40
+    lz77_init_single.o              122
+    memchr.o                         88
+    strchr.o                         22
+    strlen.o                         54
+    strncpy.o                       112
+    zero_init3.o                     64
+    -----------------------------------------------------
+    Total:                        1 374
+
+shb_l.a: [6]
+    exit.o                           20
+    -----------------------------------------------------
+    Total:                           20
+
+    Gaps                             50        4
+    Linker created                            32   32 512
+---------------------------------------------------------
+    Grand Total:                 36 080      265   36 920
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x08008b1c          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08008b3c          --   Gb  - Linker created -
+?main                   0x08008b3d         Code  Gb  cmain.o [5]
+ADC_Disable             0x08003151   0x46  Code  Gb  stm32l4xx_hal_adc.o [1]
+ADC_Enable              0x08003109   0x48  Code  Gb  stm32l4xx_hal_adc.o [1]
+ADC_ref                 0x20000238    0x2  Data  Gb  main.o [1]
+ADC_val                 0x2000023a    0x2  Data  Gb  main.o [1]
+ADCx_MspInit_Analog     0x08003ead   0x9e  Code  Lc  stm32l4xx_nucleo_ika02a1.o [1]
+AHBPrescTable           0x08001d3c   0x10  Data  Gb  system_stm32l4xx.o [1]
+APBPrescTable           0x08008bdc    0x8  Data  Gb  system_stm32l4xx.o [1]
+AT_ExecuteCommand       0x08005c0d   0x58  Code  Lc  es_wifi.o [1]
+AT_ParseConnSettings    0x08005b5d   0xa8  Code  Lc  es_wifi.o [1]
+AT_RequestReceiveData   0x08005da1   0x56  Code  Lc  es_wifi.o [1]
+AT_RequestSendData      0x08005c6b   0x7a  Code  Lc  es_wifi.o [1]
+AdcHandle               0x200000a0   0x68  Data  Lc  main.o [1]
+BSP_COM_Init            0x08002717   0x88  Code  Gb  stm32l475e_iot01.o [1]
+BSP_HSENSOR_Init        0x080014d5   0x20  Code  Gb  stm32l475e_iot01_hsensor.o [1]
+BSP_HSENSOR_ReadHumidity
+                        0x080014f5    0xa  Code  Gb  stm32l475e_iot01_hsensor.o [1]
+BSP_LED_Init            0x080026a5   0x46  Code  Gb  stm32l475e_iot01.o [1]
+BSP_LED_Off             0x080026ff   0x12  Code  Gb  stm32l475e_iot01.o [1]
+BSP_LED_On              0x080026eb   0x14  Code  Gb  stm32l475e_iot01.o [1]
+BSP_PSENSOR_Init        0x08001509   0x20  Code  Gb  stm32l475e_iot01_psensor.o [1]
+BSP_PSENSOR_ReadPressure
+                        0x08001529    0xa  Code  Gb  stm32l475e_iot01_psensor.o [1]
+BSP_TSENSOR_Init        0x080014a9   0x1a  Code  Gb  stm32l475e_iot01_tsensor.o [1]
+BSP_TSENSOR_ReadTemp    0x080014c3    0xa  Code  Gb  stm32l475e_iot01_tsensor.o [1]
+BusFault_Handler        0x08008b97    0x2  Code  Gb  stm32l4xx_it.o [1]
+COM_RX_AF               0x0800293c    0x2  Data  Gb  stm32l475e_iot01.o [1]
+COM_RX_PIN              0x08002934    0x2  Data  Gb  stm32l475e_iot01.o [1]
+COM_RX_PORT             0x20000674    0x4  Data  Gb  stm32l475e_iot01.o [1]
+COM_TX_AF               0x08002938    0x2  Data  Gb  stm32l475e_iot01.o [1]
+COM_TX_PIN              0x08002930    0x2  Data  Gb  stm32l475e_iot01.o [1]
+COM_TX_PORT             0x20000670    0x4  Data  Gb  stm32l475e_iot01.o [1]
+COM_USART               0x2000066c    0x4  Data  Gb  stm32l475e_iot01.o [1]
+CSTACK$$Base            0x10000000          --   Gb  - Linker created -
+CSTACK$$Limit           0x10007f00          --   Gb  - Linker created -
+CacheMore               0x08007281   0x24  Code  Lc  xlocale_c.o [3]
+DebugMon_Handler        0x08008b9d    0x2  Code  Gb  stm32l4xx_it.o [1]
+ES_WIFI_Connect         0x08005ed9   0x5c  Code  Gb  es_wifi.o [1]
+ES_WIFI_GetMACAddress   0x08005f65   0x2c  Code  Gb  es_wifi.o [1]
+ES_WIFI_GetNetworkSettings
+                        0x08005f35   0x22  Code  Gb  es_wifi.o [1]
+ES_WIFI_Init            0x08005df9   0xb4  Code  Gb  es_wifi.o [1]
+ES_WIFI_ReceiveData     0x08006171   0x6a  Code  Gb  es_wifi.o [1]
+ES_WIFI_RegisterBusIO   0x08005ead   0x2c  Code  Gb  es_wifi.o [1]
+ES_WIFI_SendData        0x080060ed   0x7a  Code  Gb  es_wifi.o [1]
+ES_WIFI_StartServerSingleConn
+                        0x08005fe5   0xca  Code  Gb  es_wifi.o [1]
+ES_WIFI_StopServerSingleConn
+                        0x080060d5    0xc  Code  Gb  es_wifi.o [1]
+EsWifiObj               0x200007c8  0x768  Data  Gb  wifi.o [1]
+FLASH_FlushCaches       0x08003d89   0x50  Code  Gb  stm32l4xx_hal_flash_ex.o [1]
+FLASH_MassErase         0x08003d2f   0x24  Code  Lc  stm32l4xx_hal_flash_ex.o [1]
+FLASH_PageErase         0x08003d53   0x36  Code  Gb  stm32l4xx_hal_flash_ex.o [1]
+FLASH_Program_DoubleWord
+                        0x080038a9   0x14  Code  Lc  stm32l4xx_hal_flash.o [1]
+FLASH_Program_Fast      0x080038bd   0x20  Code  Lc  stm32l4xx_hal_flash.o [1]
+FLASH_SetErrorCode      0x080037fb   0xae  Code  Lc  stm32l4xx_hal_flash.o [1]
+FLASH_WaitForLastOperation
+                        0x0800377f   0x7c  Code  Gb  stm32l4xx_hal_flash.o [1]
+FlashStoreDialogGain    0x080008f1  0x11c  Code  Gb  main.o [1]
+FlashStoreDialogSens    0x080007c7  0x11c  Code  Gb  main.o [1]
+GPIO_InitStruct         0x200006e8   0x14  Data  Gb  stm32l4xx_nucleo_ika02a1.o [1]
+GPIO_PIN                0x0800292c    0x4  Data  Gb  stm32l475e_iot01.o [1]
+GPIO_PORT               0x20000668    0x4  Data  Gb  stm32l475e_iot01.o [1]
+Get_ADC_value           0x08003ded   0x1c  Code  Gb  stm32l4xx_nucleo_ika02a1.o [1]
+Get_Gas_concentration   0x0800338d   0x44  Code  Gb  x_nucleo_ika02a1.o [1]
+Get_Gpio_Analog_Value   0x08003e09   0xa2  Code  Gb  stm32l4xx_nucleo_ika02a1.o [1]
+Get_Temperature         0x080033d1   0x60  Code  Gb  x_nucleo_ika02a1.o [1]
+Get_comp_gas_concentration
+                        0x0800345d   0x26  Code  Gb  x_nucleo_ika02a1.o [1]
+HAL_ADCEx_Calibration_Start
+                        0x080031c1   0x86  Code  Gb  stm32l4xx_hal_adc_ex.o [1]
+HAL_ADC_ConfigChannel   0x08002db5  0x2e8  Code  Gb  stm32l4xx_hal_adc.o [1]
+HAL_ADC_GetState        0x080030ed    0x4  Code  Gb  stm32l4xx_hal_adc.o [1]
+HAL_ADC_GetValue        0x08002d99    0x6  Code  Gb  stm32l4xx_hal_adc.o [1]
+HAL_ADC_Init            0x0800299d  0x1ca  Code  Gb  stm32l4xx_hal_adc.o [1]
+HAL_ADC_PollForConversion
+                        0x08002c4f  0x124  Code  Gb  stm32l4xx_hal_adc.o [1]
+HAL_ADC_Start           0x08002b81   0xc2  Code  Gb  stm32l4xx_hal_adc.o [1]
+HAL_Delay               0x08003661   0x16  Code  Wk  stm32l4xx_hal.o [1]
+HAL_FLASHEx_Erase       0x08003c91   0x9e  Code  Gb  stm32l4xx_hal_flash_ex.o [1]
+HAL_FLASH_Lock          0x0800376d    0xa  Code  Gb  stm32l4xx_hal_flash.o [1]
+HAL_FLASH_Program       0x080036e9   0x72  Code  Gb  stm32l4xx_hal_flash.o [1]
+HAL_FLASH_Unlock        0x0800375b   0x12  Code  Gb  stm32l4xx_hal_flash.o [1]
+HAL_GPIO_Init           0x08003f95  0x1bc  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GPIO_ReadPin        0x08004151    0xc  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x0800415d    0xe  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GetTick             0x08003f59    0xc  Code  Wk  stm32l4xx_hal.o [1]
+HAL_I2CEx_ConfigAnalogFilter
+                        0x08004a81   0x30  Code  Gb  stm32l4xx_hal_i2c_ex.o [1]
+HAL_I2C_DeInit          0x08004567   0x26  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_I2C_Init            0x080044c9   0x9e  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_I2C_Mem_Read        0x080046e9   0xe6  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_I2C_Mem_Write       0x080045bb   0xd8  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_IncTick             0x08008ba5   0x10  Code  Wk  stm32l4xx_hal.o [1]
+HAL_Init                0x0800153d   0x16  Code  Gb  stm32l4xx_hal.o [1]
+HAL_InitTick            0x08004259   0x28  Code  Wk  stm32l4xx_hal.o [1]
+HAL_NVIC_EnableIRQ      0x08004203   0x16  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x080041c9   0x3a  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x080041af   0x1a  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_PWREx_GetVoltageRange
+                        0x08004281    0xc  Code  Gb  stm32l4xx_hal_pwr_ex.o [1]
+HAL_RCC_ClockConfig     0x08001999  0x122  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq    0x08001b89   0x10  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK2Freq    0x08001b99    0xe  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x08001ae3   0xa6  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x08001555  0x400  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_SPIEx_FlushRxFifo   0x080087fd   0x22  Code  Gb  stm32l4xx_hal_spi_ex.o [1]
+HAL_SPI_DeInit          0x08007c7b   0x28  Code  Gb  stm32l4xx_hal_spi.o [1]
+HAL_SPI_Init            0x08007bc9   0xb2  Code  Gb  stm32l4xx_hal_spi.o [1]
+HAL_SPI_Receive         0x08007de7  0x1da  Code  Gb  stm32l4xx_hal_spi.o [1]
+HAL_SPI_Transmit        0x08007ca3  0x144  Code  Gb  stm32l4xx_hal_spi.o [1]
+HAL_SPI_TransmitReceive
+                        0x08007fcd  0x236  Code  Gb  stm32l4xx_hal_spi.o [1]
+HAL_SYSTICK_Config      0x08004219   0x28  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_UARTEx_WakeupCallback
+                        0x08004295    0x2  Code  Wk  stm32l4xx_hal_uart_ex.o [1]
+HAL_UART_DeInit         0x08001ebd   0x36  Code  Gb  stm32l4xx_hal_uart.o [1]
+HAL_UART_IRQHandler     0x08002037  0x152  Code  Gb  stm32l4xx_hal_uart.o [1]
+HAL_UART_Init           0x08001e3d   0x30  Code  Gb  stm32l4xx_hal_uart.o [1]
+HAL_UART_Receive_IT     0x08001f9d   0x94  Code  Gb  stm32l4xx_hal_uart.o [1]
+HAL_UART_RxCpltCallback
+                        0x08000d53   0x16  Code  Gb  main.o [1]
+HAL_UART_Transmit       0x08001ef3   0xaa  Code  Gb  stm32l4xx_hal_uart.o [1]
+HTS221_H_Drv            0x20000074    0xc  Data  Gb  hts221.o [1]
+HTS221_H_Init           0x08008821    0x4  Code  Gb  hts221.o [1]
+HTS221_H_ReadHumidity   0x08008839   0xce  Code  Gb  hts221.o [1]
+HTS221_H_ReadID         0x08008825   0x14  Code  Gb  hts221.o [1]
+HTS221_T_Drv            0x20000080   0x10  Data  Gb  hts221.o [1]
+HTS221_T_Init           0x08008915    0x2  Code  Gb  hts221.o [1]
+HTS221_T_ReadTemp       0x08008935   0xa6  Code  Gb  hts221.o [1]
+HardFault_Handler       0x08008b93    0x2  Code  Gb  stm32l4xx_it.o [1]
+Hsensor_drv             0x20001120    0x4  Data  Lc  stm32l475e_iot01_hsensor.o [1]
+I2C_IsAcknowledgeFailed
+                        0x080049d5   0x64  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_RequestMemoryRead   0x08004881   0x44  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_RequestMemoryWrite  0x08004831   0x42  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_TransferConfig      0x08004a53   0x1e  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_WaitOnFlagUntilTimeout
+                        0x080048f3   0x5c  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_WaitOnSTOPFlagUntilTimeout
+                        0x08004981   0x2c  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_WaitOnTXISFlagUntilTimeout
+                        0x0800494f   0x32  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2Cx_Error              0x080028a3   0x10  Code  Lc  stm32l475e_iot01.o [1]
+I2Cx_Init               0x080027b3   0xb0  Code  Lc  stm32l475e_iot01.o [1]
+I2Cx_ReadMultiple       0x08002863    0xc  Code  Lc  stm32l475e_iot01.o [1]
+I2Cx_WriteMultiple      0x0800286f    0xa  Code  Lc  stm32l475e_iot01.o [1]
+IP_Addr                 0x20000224    0x4  Data  Gb  main.o [1]
+LPS22HB_Init            0x08008a5d   0x34  Code  Lc  lps22hb.o [1]
+LPS22HB_P_Drv           0x20000090    0xc  Data  Gb  lps22hb.o [1]
+LPS22HB_P_Init          0x080089e9    0x2  Code  Gb  lps22hb.o [1]
+LPS22HB_P_ReadID        0x080089eb   0x14  Code  Gb  lps22hb.o [1]
+LPS22HB_P_ReadPressure  0x08008a01   0x56  Code  Gb  lps22hb.o [1]
+LoadInt                 0x08004ccb   0x7a  Code  Lc  xprintffull.o [3]
+MAC_Addr                0x2000021c    0x8  Data  Gb  main.o [1]
+MSIRangeTable           0x08001d4c   0x30  Data  Gb  system_stm32l4xx.o [1]
+MemManage_Handler       0x08008b95    0x2  Code  Gb  stm32l4xx_it.o [1]
+Message                 0x2000009e    0x1  Data  Gb  main.o [1]
+NMI_Handler             0x08008b91    0x2  Code  Gb  stm32l4xx_it.o [1]
+NUCLEO_ANALOG_ADC       0x200006d0   0x18  Data  Lc  stm32l4xx_nucleo_ika02a1.o [1]
+NUCLEO_ANALOG_ADC_CHANNEL
+                        0x200006b8   0x18  Data  Lc  stm32l4xx_nucleo_ika02a1.o [1]
+NUCLEO_ANALOG_GPIO      0x200006a0   0x18  Data  Lc  stm32l4xx_nucleo_ika02a1.o [1]
+NUCLEO_ANALOG_PIN       0x2000067c    0xc  Data  Lc  stm32l4xx_nucleo_ika02a1.o [1]
+ParseIP                 0x08005b29   0x32  Code  Lc  es_wifi.o [1]
+ParseMAC                0x08005aad   0x7c  Code  Lc  es_wifi.o [1]
+ParseNumber             0x08005a75   0x38  Code  Lc  es_wifi.o [1]
+PendSV_Handler          0x08008b9f    0x2  Code  Gb  stm32l4xx_it.o [1]
+Psensor_drv             0x20001124    0x4  Data  Lc  stm32l475e_iot01_psensor.o [1]
+RCC_SetFlashLatencyFromMSIRange
+                        0x08001bad   0x74  Code  Lc  stm32l4xx_hal_rcc.o [1]
+ReceiveLongDataLen      0x08005d35   0x6c  Code  Lc  es_wifi.o [1]
+ReceiveShortDataLen     0x08005ce5   0x50  Code  Lc  es_wifi.o [1]
+Region$$Table$$Base     0x08008b1c          --   Gb  - Linker created -
+Region$$Table$$Limit    0x08008b3c          --   Gb  - Linker created -
+SENSOR_IO_Init          0x080028b3    0x4  Code  Gb  stm32l475e_iot01.o [1]
+SENSOR_IO_Read          0x080028cf   0x22  Code  Gb  stm32l475e_iot01.o [1]
+SENSOR_IO_ReadMultiple  0x080028f1    0xc  Code  Gb  stm32l475e_iot01.o [1]
+SENSOR_IO_Write         0x080028b7   0x18  Code  Gb  stm32l475e_iot01.o [1]
+SPI_EndRxTransaction    0x080083c7   0x5c  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_EndRxTxTransaction  0x08008423   0x20  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_WIFI_DeInit         0x0800866f    0xc  Code  Gb  es_wifi_io.o [1]
+SPI_WIFI_Delay          0x080087f9    0x4  Code  Gb  es_wifi_io.o [1]
+SPI_WIFI_Init           0x08008571   0xea  Code  Gb  es_wifi_io.o [1]
+SPI_WIFI_MspInit        0x0800845d   0xdc  Code  Gb  es_wifi_io.o [1]
+SPI_WIFI_ReceiveData    0x0800867b   0xca  Code  Gb  es_wifi_io.o [1]
+SPI_WIFI_SendData       0x0800875d   0x80  Code  Gb  es_wifi_io.o [1]
+SPI_WaitFifoStateUntilTimeout
+                        0x08008333   0x7c  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_WaitFlagStateUntilTimeout
+                        0x080082b3   0x66  Code  Lc  stm32l4xx_hal_spi.o [1]
+SVC_Handler             0x08008b9b    0x2  Code  Gb  stm32l4xx_it.o [1]
+Socket                  0x20000244    0x4  Data  Gb  main.o [1]
+State                   0x2000009f    0x1  Data  Lc  main.o [1]
+SysTick_Handler         0x08008ba1    0x4  Code  Gb  stm32l4xx_it.o [1]
+SystemCoreClock         0x200006fc    0x4  Data  Gb  system_stm32l4xx.o [1]
+SystemCoreClockUpdate   0x08001c95   0x88  Code  Gb  system_stm32l4xx.o [1]
+SystemInit              0x08001c59   0x3c  Code  Gb  system_stm32l4xx.o [1]
+TEMP_COMPENSATION       0x08003484   0xf4  Data  Lc  x_nucleo_ika02a1.o [1]
+TestDialog              0x08000ae5  0x246  Code  Gb  main.o [1]
+Test_Pin_HiZ            0x08000d8f   0x1e  Code  Gb  main.o [1]
+Test_Pin_Init           0x08000d6d   0x22  Code  Gb  main.o [1]
+UART_AdvFeatureConfig   0x080023e9   0xc6  Code  Gb  stm32l4xx_hal_uart.o [1]
+UART_CheckIdleState     0x080024af   0x4e  Code  Gb  stm32l4xx_hal_uart.o [1]
+UART_Receive_IT         0x08002599   0x90  Code  Lc  stm32l4xx_hal_uart.o [1]
+UART_SetConfig          0x08002189  0x22e  Code  Gb  stm32l4xx_hal_uart.o [1]
+UART_WaitOnFlagUntilTimeout
+                        0x080024fd   0x8e  Code  Gb  stm32l4xx_hal_uart.o [1]
+USART2_IRQHandler       0x08008bc5    0x6  Code  Gb  stm32xx_it.o [1]
+USARTConfig             0x08001d7d   0x96  Code  Gb  cube_hal.o [1]
+UartHandle              0x20000000   0x70  Data  Gb  cube_hal.o [1]
+UartReady               0x2000009d    0x1  Data  Gb  main.o [1]
+UsageFault_Handler      0x08008b99    0x2  Code  Gb  stm32l4xx_it.o [1]
+Usart_BaudRate          0x20000070    0x4  Data  Gb  cube_hal.o [1]
+WIFI_Connect            0x0800329b   0x22  Code  Gb  wifi.o [1]
+WIFI_GetIP_Address      0x080032c9   0x18  Code  Gb  wifi.o [1]
+WIFI_GetMAC_Address     0x080032bd    0xc  Code  Gb  wifi.o [1]
+WIFI_Init               0x08003271   0x2a  Code  Gb  wifi.o [1]
+WIFI_ReceiveData        0x0800332f    0xa  Code  Gb  wifi.o [1]
+WIFI_SendData           0x08003323    0xc  Code  Gb  wifi.o [1]
+WIFI_StartServer        0x080032f1   0x1e  Code  Gb  wifi.o [1]
+WIFI_StopServer         0x08003319    0xa  Code  Gb  wifi.o [1]
+WebServerProcess        0x080005d9  0x1c0  Code  Lc  main.o [1]
+_Encoding_8859_1_Mbrlen
+                        0x08002951    0x2  Code  Gb  xencoding_8859_1.o [3]
+_Encoding_8859_1_Wctomb
+                        0x0800293f   0x12  Code  Gb  xencoding_8859_1.o [3]
+_GenldFull              0x0800574d  0x274  Code  Lc  xprintffull.o [3]
+_LdtobFull              0x08005321  0x3fe  Code  Lc  xprintffull.o [3]
+_LitobFull              0x080051c9  0x112  Code  Lc  xprintffull.o [3]
+_Locale_lconv           0x20000700   0x38  Data  Lc  xlocale_c.o [3]
+_PrintfFull             0x08004add  0x1d6  Code  Gb  xprintffull.o [3]
+_Prout                  0x08008b6f   0x16  Code  Gb  xprout.o [3]
+_PutcharsFull           0x080059c1   0x2e  Code  Lc  xprintffull.o [3]
+_PutfldFull             0x08004d45  0x2d0  Code  Lc  xprintffull.o [3]
+_PutstrFull             0x0800510b   0xbe  Code  Lc  xprintffull.o [3]
+_PuttxtFull             0x08005015   0xf6  Code  Lc  xprintffull.o [3]
+_SProut                 0x08002993    0xa  Code  Gb  xsprout.o [3]
+_Strtok_ssave           0x20001130    0x4  Data  Lc  strtok.o [3]
+__NVIC_SetPriority      0x08004191   0x1e  Code  Lc  stm32l4xx_hal_cortex.o [1]
+__aeabi_cdcmpeq         0x080076d1         Code  Gb  DblCmpEq.o [4]
+__aeabi_cdcmple         0x08003f65         Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0x080074ad         Code  Gb  DblCmpGe.o [4]
+__aeabi_d2f             0x080066cd         Code  Gb  DblToFlt.o [4]
+__aeabi_d2iz            0x080035dd         Code  Gb  DblToS32.o [4]
+__aeabi_d2uiz           0x080038f5         Code  Gb  DblToU32.o [4]
+__aeabi_dadd            0x08003b19         Code  Gb  DblAdd.o [4]
+__aeabi_ddiv            0x08006381         Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x08003975         Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x0800629d         Code  Gb  DblSub.o [4]
+__aeabi_f2d             0x08003619         Code  Gb  FltToDbl.o [4]
+__aeabi_i2d             0x08003935         Code  Gb  S32ToDbl.o [4]
+__aeabi_ldiv0           0x08007279         Code  Gb  I64DivZer.o [5]
+__aeabi_memcpy          0x08007395         Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy4         0x080073b5         Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy8         0x080073b5         Code  Gb  ABImemcpy.o [5]
+__aeabi_ui2d            0x08003959         Code  Gb  U32ToDbl.o [4]
+__aeabi_uldivmod        0x08004299         Code  Gb  I64DivMod.o [5]
+__cmain                 0x08008b3d         Code  Gb  cmain.o [5]
+__exit                  0x08007bb5   0x14  Code  Gb  exit.o [6]
+__iar_Exp64             0x080076f1  0x3b8  Code  Gb  iar_Exp64.o [4]
+__iar_Fail_s            0x080072f1   0x1c  Code  Gb  xfail_s.o [3]
+__iar_Mbcurmax          0x08007389    0xa  Code  Gb  xmbcurmax.o [3]
+__iar_Memchr            0x08007331         Code  Gb  memchr.o [5]
+__iar_Memset_word       0x08007b55         Code  Gb  ABImemset.o [5]
+__iar_Pow64             0x08006751  0x654  Code  Lc  pow64.o [4]
+__iar_Stdout            0x20000780   0x48  Data  Gb  xfiles.o [3]
+__iar_Strchr            0x08006735         Code  Gb  strchr.o [5]
+__iar_dadd              0x080062ad         Code  Gb  DblSub.o [4]
+__iar_data_init3        0x08008ad1   0x28  Code  Gb  data_init.o [5]
+__iar_dsub              0x08003b29         Code  Gb  DblAdd.o [4]
+__iar_dsubStart         0x08003b3b         Code  Gb  DblAdd.o [4]
+__iar_frexp             0x08007449         Code  Gb  frexp.o [4]
+__iar_frexpl            0x08007449         Code  Gb  frexp.o [4]
+__iar_globLocale        0x20000738   0x48  Data  Lc  xlocale_c.o [3]
+__iar_global_Locale     0x0800727d    0x4  Code  Gb  xlocale_c.o [3]
+__iar_init_vfp          0x08008af9         Code  Gb  fpinit_M.o [4]
+__iar_ldexp64           0x080074dd         Code  Gb  ldexp.o [4]
+__iar_lz77_init_single3
+                        0x0800262b   0x7a  Code  Gb  lz77_init_single.o [5]
+__iar_pow64             0x08006e45   0x14  Code  Gb  pow64.o [4]
+__iar_pow_medium        0x08006e45   0x14  Code  Gb  pow64.o [4]
+__iar_pow_medium64      0x08006e45   0x14  Code  Gb  pow64.o [4]
+__iar_pow_mediuml       0x08006e45   0x14  Code  Gb  pow64.o [4]
+__iar_program_start     0x08008bd1         Code  Gb  cstartup_M.o [5]
+__iar_round64           0x08003589         Code  Gb  round.o [4]
+__iar_scalbln64         0x080074dd         Code  Gb  ldexp.o [4]
+__iar_scalbn64          0x080074dd         Code  Gb  ldexp.o [4]
+__iar_softfp___iar_frexp64
+                        0x0800743d         Code  Gb  frexp.o [4]
+__iar_softfp_frexp      0x0800743d         Code  Gb  frexp.o [4]
+__iar_softfp_frexpl     0x0800743d         Code  Gb  frexp.o [4]
+__iar_sqrt64            0x080065d9         Code  Gb  sqrt.o [4]
+__iar_systems$$module {Abs}
+                        0x00000001         Data  Gb  command line/config [2]
+__iar_vfp___iar_round64
+                        0x08003579         Code  Gb  round.o [4]
+__iar_vfp___iar_sqrt64  0x080065c9         Code  Gb  sqrt.o [4]
+__iar_vfp_pow           0x08003923   0x10  Code  Gb  math_wrappers64.o [4]
+__iar_vfp_round         0x08003579         Code  Gb  round.o [4]
+__iar_vfp_roundl        0x08003579         Code  Gb  round.o [4]
+__iar_vfp_sqrt          0x080065c9         Code  Gb  sqrt.o [4]
+__iar_vfp_sqrtl         0x080065c9         Code  Gb  sqrt.o [4]
+__iar_zero_init3        0x08008a91   0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x08008b5b    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000         Data  Gb  startup_stm32l475xx.o [1]
+_call_main              0x08008b49         Code  Gb  cmain.o [5]
+_exit                   0x08008b65         Code  Gb  cexit.o [5]
+_gLocale_mblen          0x080072dd    0x4  Code  Gb  xlocale_c.o [3]
+_gLocale_mblenInt       0x080072a5   0x34  Code  Gb  xlocale_c.o [3]
+_gLocale_wctomb         0x080072e1    0x4  Code  Gb  xlocale_c.o [3]
+_gLocale_wctombInt      0x080072d9    0x4  Code  Gb  xlocale_c.o [3]
+_main                   0x08008b57         Code  Gb  cmain.o [5]
+abort                   0x08007b09    0x6  Code  Gb  abort.o [3]
+dati                    0x20000254   0x14  Data  Gb  main.o [1]
+exit                    0x08008b5f    0x4  Code  Gb  exit.o [3]
+fputc                   0x080007b1   0x16  Code  Gb  main.o [1]
+gas_value_ppm           0x20000108    0x4  Data  Gb  main.o [1]
+gas_value_ppm_comp      0x2000010c    0x4  Data  Gb  main.o [1]
+hDiscoUart              0x20000f30   0x70  Data  Gb  stm32l475e_iot01.o [1]
+hI2cHandler             0x200010bc   0x48  Data  Gb  stm32l475e_iot01.o [1]
+hnucleo_adc             0x20000fa0   0x68  Data  Gb  stm32l4xx_nucleo_ika02a1.o [1]
+hostname                0x2000023c    0x4  Data  Gb  main.o [1]
+hspi                    0x20001008   0x64  Data  Gb  es_wifi_io.o [1]
+humidity_value          0x2000024c    0x4  Data  Gb  main.o [1]
+i                       0x2000009c    0x1  Data  Gb  main.o [1]
+ldexp                   0x080074dd         Code  Gb  ldexp.o [4]
+ldexpl                  0x080074dd         Code  Gb  ldexp.o [4]
+lnbias                  0x08006e58  0x420  Data  Lc  pow64.o [4]
+localeconv              0x080072e5    0x4  Code  Gb  xlocale_c.o [3]
+main                    0x08000189  0x420  Code  Gb  main.o [1]
+memchr                  0x08007331         Code  Gb  memchr.o [5]
+obuf                    0x2000106c   0x50  Data  Lc  xfiles.o [3]
+pFlash                  0x20001104   0x1c  Data  Gb  stm32l4xx_hal_flash.o [1]
+pGain                   0x20000118    0x4  Data  Gb  main.o [1]
+pSens                   0x20000114    0x4  Data  Gb  main.o [1]
+pow                     0x08006e45   0x14  Code  Gb  pow64.o [4]
+powl                    0x08006e45   0x14  Code  Gb  pow64.o [4]
+pressure_value          0x20000250    0x4  Data  Gb  main.o [1]
+printf                  0x08003249   0x28  Code  Gb  printf.o [3]
+putchar                 0x08008b85    0xc  Code  Gb  putchar.o [3]
+resp                    0x20000268  0x400  Data  Lc  main.o [1]
+respLen                 0x20000240    0x2  Data  Gb  main.o [1]
+round                   0x08003589         Code  Gb  round.o [4]
+roundl                  0x08003589         Code  Gb  round.o [4]
+sConfig                 0x20000688   0x18  Data  Gb  stm32l4xx_nucleo_ika02a1.o [1]
+scalbln                 0x080074dd         Code  Gb  ldexp.o [4]
+scalblnl                0x080074dd         Code  Gb  ldexp.o [4]
+scalbn                  0x080074dd         Code  Gb  ldexp.o [4]
+scalbnl                 0x080074dd         Code  Gb  ldexp.o [4]
+scale                   0x080052db   0x46  Code  Lc  xprintffull.o [3]
+sec_hand                0x20001134    0x4  Data  Lc  xfail_s.o [3]
+sprintf                 0x08003679   0x40  Code  Gb  sprintf.o [3]
+sqrt                    0x080065d9         Code  Gb  sqrt.o [4]
+sqrtl                   0x080065d9         Code  Gb  sqrt.o [4]
+status                  0x20000678    0x1  Data  Gb  stm32l4xx_nucleo_ika02a1.o [1]
+strcat                  0x0800336d   0x20  Code  Gb  strcat.o [3]
+strchr                  0x08006735         Code  Gb  strchr.o [5]
+strcspn                 0x08007b31   0x22  Code  Gb  strcspn.o [3]
+strlen                  0x0800295d         Code  Gb  strlen.o [5]
+strncpy                 0x08007661         Code  Gb  strncpy.o [5]
+strspn                  0x08007b0f   0x22  Code  Gb  strspn.o [3]
+strstr                  0x080036b9   0x30  Code  Gb  strstr.o [3]
+strtok                  0x08007619   0x48  Code  Gb  strtok.o [3]
+temperature             0x20000110    0x4  Data  Gb  main.o [1]
+temperature_value       0x20000248    0x4  Data  Gb  main.o [1]
+tsensor_drv             0x20001128    0x4  Data  Lc  stm32l475e_iot01_tsensor.o [1]
+uartInBuffer            0x20000228   0x10  Data  Gb  main.o [1]
+uartOutBuffer           0x2000011c  0x100  Data  Gb  main.o [1]
+uwTick                  0x2000112c    0x4  Data  Gb  stm32l4xx_hal.o [1]
+value                   0x2000067a    0x2  Data  Gb  stm32l4xx_nucleo_ika02a1.o [1]
+
+
+[1] = D:\STM32Cube_FW_L4_V1.12.0\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_HTTP_Server - Copia\EWARM\B-L475E-IOT01\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  36 080 bytes of readonly  code memory
+     265 bytes of readonly  data memory
+  36 920 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
