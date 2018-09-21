@@ -109,8 +109,8 @@ uint16_t ADC_val = 0;
 #define AVERAGING 4
 /* Private defines -----------------------------------------------------------*/
 /* Update SSID and PASSWORD with own Access point settings */
-#define SSID     "Vodafone-20603553" 
-#define PASSWORD "s12120000022538"
+#define SSID     "YOUR_SSID" 
+#define PASSWORD "YOUR_PASSWORD"
 /*#define SSID     "depa_enea" 
 #define PASSWORD "zTcqxftS"*/
 /*#define SSID     "enea-two" 

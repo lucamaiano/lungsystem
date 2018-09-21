@@ -2,6 +2,11 @@
 
 A project developed for the Pervasive Systems exam of the master degree in Engineering in Computer Science. It takes trace of the quality of the air you breathe. Data are collected into the cloud through the use of sensors attached to a STM32 Nucleo board. Access to the data is provided by a visualization system and a chat bot assistant.
 
+The system has three main components and follows the MVC pattern. There is a REST web service that stores measures and gives access to all values. The view requires data to the web service through GET requests. New measurements are send by the IoT devices throw POSTs.
+
+![Dialogflow 1](images/ArchitectureDiagram.png)
+
+
 ## Slides
 
 If you are interested in the project, you can give a look at the presentations:
@@ -179,12 +184,13 @@ The system works thanks to a python Client that once launched, starts the http s
 ### How to Lunch the System
 
 To let the system work:
-1. [Install the LungSystem project on the prototype](https://github.com/lucamaiano/lungsystem/wiki/4.-How-to-install-the-LungSystem-project-on-the-prototype)
-2. Connect the prototype to the PC. After that on the Tera Term window this screen will be shown: 
+1. Go to *Hardware/LungSystem/Src/main.c* and add your SSID and PASSWORD to connect to a network
+2. [Install the LungSystem project on the prototype](https://github.com/lucamaiano/lungsystem/wiki/4.-How-to-install-the-LungSystem-project-on-the-prototype)
+3. Connect the prototype to the PC. After that on the Tera Term window this screen will be shown: 
 ![B-L475E-IOT01A](images/1.jpg)
 As you can see, the HTTP Server is waiting for a connection.
-3. Launch Flask. If Flask can’t work correctly it’s possible to collect the data locally with the script `loadBatch.py`. It will send the data to the Flask server when it will work. To launch loadBatch.py type from terminal the command `python loadBatch.py`
-4. Launch the Client on a differnt Terminal window typing the command 
+4. Launch Flask. If Flask can’t work correctly it’s possible to collect the data locally with the script `loadBatch.py`. It will send the data to the Flask server when it will work. To launch loadBatch.py type from terminal the command `python loadBatch.py`
+5. Launch the Client on a differnt Terminal window typing the command 
 `python Client.py`
 
 The system will ask for the ip address of the Server that is possible to insert manually from command line.
